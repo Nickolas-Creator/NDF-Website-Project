@@ -1,0 +1,17 @@
+li {
+    display: block;
+    padding: 12px 15px;
+background-color: indigo;
+    color: white 
+
+}
+ul {
+    background-color: rebeccapurple;
+}
+.column {
+    flex: 50%; 
+}
+.row {
+    display: flex;
+
+}

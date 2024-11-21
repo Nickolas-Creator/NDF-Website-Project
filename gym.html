@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="gym.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        dark: {
+                            100: '#1E293B',
+                            200: '#334155',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="bg-gradient-to-l from-dark-100 to-gray-400">
+    <nav class="mb=6">
+        <ul class="flex justify-">
+            <li><a href="index.html">Home</a></li>
+             <li><a href="about.html">About</a> </li>
+             <li><a href="car.html">Car</a></li>
+             <li><a href="gym.html">Gym</a></li>
+        </ul>
+    </nav>
+
+</body>
+<label>
+    <select>
+        <option default value>How much do you weigh</option>
+        <option>FAT</option>  <option>JACKED</option><option>Normal</option> <option>Skin</option> <option>BONES</option>
+    </select>
+</label>
+
+</html>
